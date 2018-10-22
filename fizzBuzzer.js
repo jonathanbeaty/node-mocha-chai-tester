@@ -1,4 +1,4 @@
-module.exports = function(num) {
+module.exports = function (num) {
 	if (typeof num !== 'number') {
 		throw Error('`num` must be a number');
 	}
@@ -10,8 +10,7 @@ module.exports = function(num) {
 	}
 	if (num % 3 === 0) {
 		return 'fizz';
-	}
-	else {
+	} else {
 		return num;
 	}
 }
